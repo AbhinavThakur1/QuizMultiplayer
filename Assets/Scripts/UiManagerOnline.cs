@@ -83,7 +83,6 @@ public class UiManagerOnline : MonoBehaviourPunCallbacks
             _localPlayer.GetComponent<PlayerOnlineData>()._score += 10;
         }
         _localPlayer.GetComponent<PlayerOnlineData>()._correctAnswer += 1;
-        _localPlayer.GetComponent<PlayerOnlineData>()._score += 10;
         _localPlayer.GetComponent<PlayerOnlineData>().ScoreUpdate();
     }
 

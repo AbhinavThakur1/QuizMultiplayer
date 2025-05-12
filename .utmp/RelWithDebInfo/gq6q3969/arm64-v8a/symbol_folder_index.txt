@@ -1,0 +1,1 @@
+C:\Users\Administrator\Documents\GitHub\QuizMultiplayer\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\gq6q3969\obj\arm64-v8a

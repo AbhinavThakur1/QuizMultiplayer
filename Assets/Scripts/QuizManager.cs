@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,11 +9,20 @@ public class QuizManager : MonoBehaviour
     UiManagerOnline _uiManagerOnline;
     const int _MAXQUESTION = 10;
     int _correctOption;
+    [SerializeField] List<Question> _questions;
+
+    [System.Serializable]
+    public class Question
+    {
+        public string questionText;
+        public string[] options;
+        public int correctAnswerIndex;
+    }
 
     private void Start()
     {
         _uiManagerOnline = FindFirstObjectByType<UiManagerOnline>();
-        NewQuestion();
+        QuestionUpdate(_uiManagerOnline._currentQuestionIndex);
     }
 
     public void QuestionAnsweredReset()
@@ -36,7 +46,7 @@ public class QuizManager : MonoBehaviour
         {
             _uiManagerOnline.QuestionIndexChange();
             _currentQuestion.text = "Your: " + _uiManagerOnline._currentQuestionIndex.ToString() + "/" + _MAXQUESTION.ToString();
-            QuestionUpdate();
+            QuestionUpdate(_uiManagerOnline._currentQuestionIndex);
         }
         else
         {
@@ -44,40 +54,13 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    void QuestionUpdate()
+    void QuestionUpdate(int _index)
     {
-        int _randomValue = Random.Range(0, 10);
-        int _firstValue = _randomValue - Random.Range(0, 5);
-        int _secondValue = _randomValue - _firstValue;
-        _question.text = _firstValue.ToString() + "+" + _secondValue.ToString();
-        _correctOption = Random.Range(1,5);
-        if (_correctOption == 1)
-        {
-            _option1Text.text = (_randomValue).ToString();
-            _option2Text.text = (_randomValue - 2).ToString();
-            _option3Text.text = (_randomValue + 1).ToString();
-            _option4Text.text = (_randomValue - 1).ToString();
-        }
-        else if (_correctOption == 2)
-        {
-            _option1Text.text = (_randomValue + 2).ToString();
-            _option2Text.text = (_randomValue).ToString();
-            _option3Text.text = (_randomValue + 1).ToString();
-            _option4Text.text = (_randomValue - 1).ToString();
-        }
-        else if (_correctOption == 3)
-        {
-            _option1Text.text = (_randomValue + 2).ToString();
-            _option2Text.text = (_randomValue - 2).ToString();
-            _option3Text.text = (_randomValue).ToString();
-            _option4Text.text = (_randomValue - 1).ToString();
-        }
-        else if (_correctOption == 4)
-        {
-            _option1Text.text = (_randomValue + 2).ToString();
-            _option2Text.text = (_randomValue - 2).ToString();
-            _option3Text.text = (_randomValue + 1).ToString();
-            _option4Text.text = (_randomValue).ToString();
-        }
+        _question.text = _questions[_index].questionText;
+        _correctOption = _questions[_index].correctAnswerIndex;
+        _option1Text.text = _questions[_index].options[0];
+        _option2Text.text = _questions[_index].options[1];
+        _option3Text.text = _questions[_index].options[2];
+        _option4Text.text = _questions[_index].options[3];
     }
 }
