@@ -774,6 +774,7 @@ MonoBehaviour:
   _score2: {fileID: 1207946176}
   _player1result: {fileID: 2144626728}
   _player2result: {fileID: 595833472}
+  _playerProgressInQuiz: {fileID: 2066910326}
   _enemyProgressInQuiz: {fileID: 1981603522}
   _enemyProgressWaiting: {fileID: 444142291}
   _correctAnswer1: {fileID: 144634891}
@@ -4053,7 +4054,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 170, y: -120}
-  m_SizeDelta: {x: 250, y: 50}
+  m_SizeDelta: {x: 270, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1981603521
 CanvasRenderer:
@@ -4447,7 +4448,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 170, y: -50}
-  m_SizeDelta: {x: 250, y: 50}
+  m_SizeDelta: {x: 270, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066910326
 MonoBehaviour:

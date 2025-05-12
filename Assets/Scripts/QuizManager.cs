@@ -28,6 +28,7 @@ public class QuizManager : MonoBehaviour
     public void QuestionAnsweredReset()
     {
         _currentQuestion.text = "Your: " + "0" + "/" + _MAXQUESTION.ToString();
+        _score.text = "Score: " + "0";
     }
 
     public void OptionClicked(int _optionNumber)
@@ -54,7 +55,7 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    void QuestionUpdate(int _index)
+    public void QuestionUpdate(int _index)
     {
         _question.text = _questions[_index].questionText;
         _correctOption = _questions[_index].correctAnswerIndex;

@@ -1,10 +1,19 @@
 # ninja log v5
 28	2240	7687399792442067	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c61701186b547037
 45	2280	7687399793032800	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2511ea61e9e658c3
-18	2352	7687399793811902	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a2d7ce90e8f17db0
-64	2466	7687399794994326	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ffcda52427873d82
-1	2487	7687399795144287	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	dea0175a4650593a
 79	2510	7687399795433373	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5e67a5ea5fc6bb03
+18	2352	7687399793811902	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a2d7ce90e8f17db0
+1	2487	7687399795144287	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	dea0175a4650593a
+64	2466	7687399794994326	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ffcda52427873d82
 55	2713	7687399797482882	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e219c405c6ecc130
-10	2875	7687399799059730	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	74992db33217aad2
 2876	2998	7687399800371797	C:/Users/Administrator/Documents/GitHub/QuizMultiplayer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/gq6q3969/obj/arm64-v8a/libgame.so	e7f1c024e1a91185
+10	2875	7687399799059730	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	74992db33217aad2
+17	1447	7687515157085408	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2511ea61e9e658c3
+28	1476	7687515157324518	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c61701186b547037
+23	1523	7687515157848072	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a2d7ce90e8f17db0
+34	1569	7687515158293187	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ffcda52427873d82
+12	1592	7687515158530095	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	dea0175a4650593a
+48	1697	7687515159629034	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5e67a5ea5fc6bb03
+41	1831	7687515160997553	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e219c405c6ecc130
+6	1923	7687515161852357	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	74992db33217aad2
+1923	2036	7687515163051596	C:/Users/Administrator/Documents/GitHub/QuizMultiplayer/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/gq6q3969/obj/arm64-v8a/libgame.so	e7f1c024e1a91185

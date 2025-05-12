@@ -1,10 +1,19 @@
 # ninja log v5
+58	2746	7687394254128958	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	96043f42d918c0df
 1	2513	7687394251306317	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a2914e7034c0b724
 39	2526	7687394251407554	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	6d15ac0f88903a3
 23	2529	7687394251461152	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e997fd1b4c73e88e
-48	2532	7687394251901400	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ea17f5893071c678
 15	2543	7687394252007495	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d7739d81cc481d3b
+48	2532	7687394251901400	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ea17f5893071c678
 30	2719	7687394253826308	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	221c13f7a4f5d516
-58	2746	7687394254128958	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	96043f42d918c0df
 9	2780	7687394254462444	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	edd371780567335f
 2781	2931	7687394256006143	C:/Users/Administrator/Documents/GitHub/QuizMultiplayer/Library/PramData/AndroidApplicationController/Cache/com.UnityTechnologies.com.unity.template.urpblank/gradle-project/unityLibrary/build/intermediates/cxx/Debug/3a4r666i/obj/arm64-v8a/libgame.so	4fe5b68223e76309
+39	1828	7687491385659051	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e997fd1b4c73e88e
+7	1839	7687491385704417	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a2914e7034c0b724
+32	1842	7687491385742382	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ea17f5893071c678
+19	1845	7687491385669067	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	6d15ac0f88903a3
+13	1857	7687491385982091	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d7739d81cc481d3b
+47	1954	7687491386924859	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	221c13f7a4f5d516
+55	1965	7687491387058773	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	96043f42d918c0df
+25	2009	7687491387480223	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	edd371780567335f
+2009	2156	7687491389002201	C:/Users/Administrator/Documents/GitHub/QuizMultiplayer/Library/PramData/AndroidApplicationController/Cache/com.UnityTechnologies.com.unity.template.urpblank/gradle-project/unityLibrary/build/intermediates/cxx/Debug/3a4r666i/obj/arm64-v8a/libgame.so	4fe5b68223e76309
